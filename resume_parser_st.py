@@ -15,7 +15,7 @@ if not my_api_key:
     raise ValueError("Not found your api key!")
 
 client = Groq(api_key=my_api_key)
-model = "llama-3.3-70b-versatile"
+model = "openai/gpt-oss-120b"
 
 #Paste job decription here
 st.title("🤖 AI Resume Evaluator")
